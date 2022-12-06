@@ -259,7 +259,7 @@ namespace Services.ScrapServices
             //3E) CAPTURAR HTML:
             //Capturamos el Html de la página respondida:
             responseHtml = "";
-            streamResponse = request.GetResponse().GetResponseStream();
+            streamResponse = wResponse.GetResponseStream();
             //Añadimos , System.Text.Encoding.Default); para capturar acentos y símbolos raros
             streamReader = new StreamReader(streamResponse, Encoding.Default);
             responseHtml = streamReader.ReadToEnd();
