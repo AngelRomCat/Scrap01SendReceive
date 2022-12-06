@@ -153,8 +153,8 @@ namespace Services.ScrapServices
             //Creamos un nuevo objeto ObjetoGordoViewModel,y lo rellenamos con los datos importantes de este site
             objeto = new ObjetoGordoViewModel();
 
-            objeto.url01 = "https://localhost:44378/AspNetUsers/Create"; //para el GET
-            objeto.url02 = "https://localhost:44378/AspNetUsers/Create"; //para el POST
+            objeto.url01 = "http://www.northwindtuneado.somee.com/AspNetUsers/Create"; //para el GET
+            objeto.url02 = "http://www.northwindtuneado.somee.com/AspNetUsers/Create"; //para el POST
             //objeto.request_Method = "GET" o "POST";
             objeto.request_ContentType = "application/x-www-form-urlencoded"; //HA DE SER ESTE QUE HEMOS PUESTO //"text/html; charset=utf-8";// "text/html;charset=ISO-8859-1";
             objeto.request_Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9";
